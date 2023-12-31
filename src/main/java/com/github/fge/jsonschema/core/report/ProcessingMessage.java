@@ -110,6 +110,10 @@ public final class ProcessingMessage
         setLogLevel(LogLevel.INFO);
     }
 
+    public static MessageBundle getBundle(){
+        return BUNDLE;
+    }
+
     /**
      * Get the main message
      *
